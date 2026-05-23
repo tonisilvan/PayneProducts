@@ -23,7 +23,7 @@ interface ShippingData {
 }
 
 export default function CheckoutPage() {
-  const { items } = useCart();
+  const { items, emptyCart } = useCart();
   const cart = calculateCartTotal(items);
 
   const [formData, setFormData] = useState<ShippingData>({
@@ -47,6 +47,7 @@ export default function CheckoutPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    emptyCart();
     setSubmitted(true);
   };
 

@@ -165,7 +165,8 @@ export function ProductCarousel({ products, onAddToCart }: ProductCarouselProps)
                           <ShoppingCart className="h-4 w-4" />
                           Añadir al carrito
                         </Button>
-                        <Link href={`/producto/${product.slug}`}>
+                        {/* Ver más button only visible on desktop */}
+                        <Link href={`/producto/${product.slug}`} className="hidden md:block">
                           <Button variant="outline" size="lg">
                             Ver más
                           </Button>
