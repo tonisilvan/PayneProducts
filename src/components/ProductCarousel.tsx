@@ -53,17 +53,19 @@ export function ProductCarousel({ products, onAddToCart }: ProductCarouselProps)
       {/* Navigation Arrows */}
       <button
         onClick={scrollPrev}
-        className="absolute left-2 md:left-8 top-1/2 -translate-y-1/2 z-10 bg-white/90 dark:bg-zinc-800/90 backdrop-blur-sm rounded-full p-3 shadow-lg hover:bg-white dark:hover:bg-zinc-700 transition-all hover:scale-110"
+        disabled={!canScrollPrev}
+        className="absolute left-4 md:left-12 top-1/2 -translate-y-1/2 z-10 bg-white/95 dark:bg-zinc-800/95 backdrop-blur-sm rounded-full p-4 shadow-xl hover:bg-white dark:hover:bg-zinc-700 transition-all duration-300 hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 group"
         aria-label="Producto anterior"
       >
-        <ChevronLeft className="h-6 w-6" />
+        <ChevronLeft className="h-8 w-8 text-zinc-700 dark:text-zinc-300 group-hover:text-primary transition-colors" />
       </button>
       <button
         onClick={scrollNext}
-        className="absolute right-2 md:right-8 top-1/2 -translate-y-1/2 z-10 bg-white/90 dark:bg-zinc-800/90 backdrop-blur-sm rounded-full p-3 shadow-lg hover:bg-white dark:hover:bg-zinc-700 transition-all hover:scale-110"
+        disabled={!canScrollNext}
+        className="absolute right-4 md:right-12 top-1/2 -translate-y-1/2 z-10 bg-white/95 dark:bg-zinc-800/95 backdrop-blur-sm rounded-full p-4 shadow-xl hover:bg-white dark:hover:bg-zinc-700 transition-all duration-300 hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 group"
         aria-label="Producto siguiente"
       >
-        <ChevronRight className="h-6 w-6" />
+        <ChevronRight className="h-8 w-8 text-zinc-700 dark:text-zinc-300 group-hover:text-primary transition-colors" />
       </button>
 
       {/* Carousel */}
