@@ -6,11 +6,46 @@ import { useCart } from '@/context/CartContext';
 import { ShoppingCart as ShoppingCartIcon, Zap, Truck, Shield, Headphones } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
+const baseUrl = 'https://payne-products.vercel.app';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': `${baseUrl}/#organization`,
+      name: 'Suministros Payne',
+      url: baseUrl,
+      logo: `${baseUrl}/images/powerbank-principal-cable.png`,
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${baseUrl}/#website`,
+      url: baseUrl,
+      name: 'PAYNE Products',
+      publisher: { '@id': `${baseUrl}/#organization` },
+    },
+    {
+      '@type': 'ItemList',
+      itemListElement: products.map((product, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: `${baseUrl}/producto/${product.slug}`,
+        name: product.name,
+      })),
+    },
+  ],
+};
+
 export default function Home() {
   const { addItem, openCart, cartCount } = useCart();
 
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="flex h-14 md:h-16 items-center justify-between px-4 md:px-8 max-w-7xl mx-auto">
@@ -128,7 +163,7 @@ export default function Home() {
             <span className="text-primary">PAYNE</span> Products
           </p>
           <p className="text-sm text-muted-foreground">
-            © 2025 Payne Products · Suministros Payne · Todos los derechos reservados.
+            © 2026 Payne Products · Suministros Payne · Todos los derechos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
             Precios indicados + IVA · Envío gratuito Península y Portugal

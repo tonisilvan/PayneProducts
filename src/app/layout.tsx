@@ -15,8 +15,46 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PAYNE Products - Tecnología y estilo para tu día a día",
-  description: "Descubre nuestra selección de productos: electrónica, hogar y accesorios con la mejor relación calidad-precio. Envío gratuito.",
+  title: {
+    default: "PAYNE Products - Tecnología y estilo para tu día a día",
+    template: "%s | PAYNE Products",
+  },
+  description: "Tienda online de electrónica y hogar. Power banks, auriculares, aspiradores, cargadores inalámbricos y más. Envío gratuito a Península y Portugal.",
+  keywords: ["electrónica", "hogar", "power bank", "auriculares bluetooth", "cargador inalámbrico", "sacacorchos eléctrico", "juego de té", "tienda online", "envío gratuito", "PAYNE"],
+  authors: [{ name: "Suministros Payne" }],
+  creator: "Suministros Payne",
+  publisher: "Suministros Payne",
+  metadataBase: new URL("https://payne-products.vercel.app"),
+  alternates: {
+    canonical: "/",
+    languages: { "es-ES": "/" },
+  },
+  openGraph: {
+    type: "website",
+    locale: "es_ES",
+    url: "/",
+    siteName: "PAYNE Products",
+    title: "PAYNE Products - Tecnología y estilo para tu día a día",
+    description: "Tienda online de electrónica y hogar. Envío gratuito a Península y Portugal.",
+    images: [{ url: "/images/powerbank-principal-cable.png", width: 1000, height: 1000, alt: "PAYNE Products" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PAYNE Products - Tecnología y estilo para tu día a día",
+    description: "Tienda online de electrónica y hogar. Envío gratuito.",
+    images: ["/images/powerbank-principal-cable.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
