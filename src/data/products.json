@@ -35,22 +35,22 @@
       ],
       "images": [
         {
-          "url": "/images/powerbank-principal-cable.png",
+          "url": "/images/powerbank-principal-cable.webp",
           "alt": "Power Bank PAYNE con cable múltiple y logo iluminado",
           "type": "principal"
         },
         {
-          "url": "/images/powerbank-trasera-ventosas.png",
+          "url": "/images/powerbank-trasera-ventosas.webp",
           "alt": "Parte trasera del Power Bank con ventosas y símbolo de carga inalámbrica",
           "type": "secundaria"
         },
         {
-          "url": "/images/powerbank-vista-frontal.png",
+          "url": "/images/powerbank-vista-frontal.webp",
           "alt": "Vista frontal del Power Bank con logo PAYNE",
           "type": "secundaria"
         },
         {
-          "url": "/images/powerbank-uso-movil.png",
+          "url": "/images/powerbank-uso-movil.webp",
           "alt": "Ejemplo de uso del Power Bank colocado sobre un móvil",
           "type": "secundaria"
         }
@@ -93,12 +93,12 @@
       ],
       "images": [
         {
-          "url": "/images/aspirador-principal.jpeg",
+          "url": "/images/aspirador-principal.webp",
           "alt": "Aspirador y soplador 2 en 1 completo con cable de carga y accesorios incluidos",
           "type": "principal"
         },
         {
-          "url": "/images/aspirador-accesorios.jpeg",
+          "url": "/images/aspirador-accesorios.webp",
           "alt": "Accesorios y boquillas del aspirador soplador",
           "type": "secundaria"
         }
@@ -144,47 +144,47 @@
       ],
       "images": [
         {
-          "url": "/images/auriculares-principal.png",
+          "url": "/images/auriculares-principal.webp",
           "alt": "Auriculares inalámbricos con estuche abierto y pantalla LED de batería",
           "type": "principal"
         },
         {
-          "url": "/images/auriculares-estuche-led.png",
+          "url": "/images/auriculares-estuche-led.webp",
           "alt": "Auriculares con estuche y pantalla LED",
           "type": "secundaria"
         },
         {
-          "url": "/images/auriculares-pantalla-digital.png",
+          "url": "/images/auriculares-pantalla-digital.webp",
           "alt": "Detalle de pantalla digital del estuche y estado de carga",
           "type": "secundaria"
         },
         {
-          "url": "/images/auriculares-bluetooth-movil.png",
+          "url": "/images/auriculares-bluetooth-movil.webp",
           "alt": "Conexión Bluetooth y emparejamiento automático con el móvil",
           "type": "secundaria"
         },
         {
-          "url": "/images/auriculares-estuche-display.jpeg",
+          "url": "/images/auriculares-estuche-display.webp",
           "alt": "Estuche abierto con pantalla LED digital mostrando nivel de carga",
           "type": "secundaria"
         },
         {
-          "url": "/images/auriculares-producto-caja.jpeg",
+          "url": "/images/auriculares-producto-caja.webp",
           "alt": "Auriculares con estuche junto a la caja de packaging VEN-DENS",
           "type": "secundaria"
         },
         {
-          "url": "/images/auriculares-packaging-detalle.jpeg",
+          "url": "/images/auriculares-packaging-detalle.webp",
           "alt": "Packaging completo con vistas del producto y detalle de pantalla digital",
           "type": "secundaria"
         },
         {
-          "url": "/images/auriculares-deporte-bici.jpeg",
+          "url": "/images/auriculares-deporte-bici.webp",
           "alt": "Mujer usando auriculares mientras hace ejercicio en bicicleta estática",
           "type": "lifestyle"
         },
         {
-          "url": "/images/auriculares-deporte-gym.jpeg",
+          "url": "/images/auriculares-deporte-gym.webp",
           "alt": "Mujer con auriculares en el gimnasio, uso deportivo",
           "type": "lifestyle"
         }
@@ -229,42 +229,42 @@
       ],
       "images": [
         {
-          "url": "/images/cargador-principal.png",
+          "url": "/images/cargador-principal.webp",
           "alt": "Estación de carga inalámbrica con móvil, reloj y auriculares colocados en la base",
           "type": "principal"
         },
         {
-          "url": "/images/cargador-protecciones.png",
+          "url": "/images/cargador-protecciones.webp",
           "alt": "Vista de protecciones y sistema de carga segura",
           "type": "secundaria"
         },
         {
-          "url": "/images/cargador-detalles-1.png",
+          "url": "/images/cargador-detalles-1.webp",
           "alt": "Detalles de diseño, soporte y disco de carga",
           "type": "secundaria"
         },
         {
-          "url": "/images/cargador-detalles-2.png",
+          "url": "/images/cargador-detalles-2.webp",
           "alt": "Detalles de almohadilla protectora",
           "type": "secundaria"
         },
         {
-          "url": "/images/cargador-4en1-completo.jpeg",
+          "url": "/images/cargador-4en1-completo.webp",
           "alt": "Estación de carga con móvil, reloj inteligente y auriculares cargando simultáneamente",
           "type": "secundaria"
         },
         {
-          "url": "/images/cargador-4en1-closeup.jpeg",
+          "url": "/images/cargador-4en1-closeup.webp",
           "alt": "Detalles close-up de la bobina de carga y base LED",
           "type": "secundaria"
         },
         {
-          "url": "/images/cargador-4en1-nocturno.jpeg",
+          "url": "/images/cargador-4en1-nocturno.webp",
           "alt": "Estación de carga en mesita de noche con iluminación nocturna suave",
           "type": "lifestyle"
         },
         {
-          "url": "/images/cargador-4en1-dispositivos.jpeg",
+          "url": "/images/cargador-4en1-dispositivos.webp",
           "alt": "Vista completa de la estación cargando todos los dispositivos",
           "type": "secundaria"
         }
@@ -318,62 +318,62 @@
       ],
       "images": [
         {
-          "url": "/images/sacacorchos-principal.png",
+          "url": "/images/sacacorchos-principal.webp",
           "alt": "Sacacorchos eléctrico en color negro, presentado en ambiente de vino",
           "type": "principal"
         },
         {
-          "url": "/images/sacacorchos-negro.png",
+          "url": "/images/sacacorchos-negro.webp",
           "alt": "Sacacorchos en color negro",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-base.png",
+          "url": "/images/sacacorchos-base.webp",
           "alt": "Modelo con base de apoyo y cortacápsulas",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-mecanismo.png",
+          "url": "/images/sacacorchos-mecanismo.webp",
           "alt": "Detalle del mecanismo interior y zona transparente",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-instrucciones.png",
+          "url": "/images/sacacorchos-instrucciones.webp",
           "alt": "Instrucciones visuales de uso para abrir la botella",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-negro-ambiente.jpeg",
+          "url": "/images/sacacorchos-negro-ambiente.webp",
           "alt": "Sacacorchos negro en ambiente elegante con copa de vino y uvas",
           "type": "lifestyle"
         },
         {
-          "url": "/images/sacacorchos-plateado-cortacapsulas.jpeg",
+          "url": "/images/sacacorchos-plateado-cortacapsulas.webp",
           "alt": "Modelo plateado con cortacápsulas incluido",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-detalle-espiral.jpeg",
+          "url": "/images/sacacorchos-detalle-espiral.webp",
           "alt": "Detalle close-up del mecanismo de espiral y zona transparente",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-instrucciones-uso.jpeg",
+          "url": "/images/sacacorchos-instrucciones-uso.webp",
           "alt": "Instrucciones paso a paso: cortar precinto, colocar, extraer y expulsar corcho",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-negro-partes.jpeg",
+          "url": "/images/sacacorchos-negro-partes.webp",
           "alt": "Partes del sacacorchos: botón de extracción, tapa de batería y cortacápsulas",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-plateado-en-mano.jpeg",
+          "url": "/images/sacacorchos-plateado-en-mano.webp",
           "alt": "Sacacorchos plateado en mano abriendo botella en solo 6 segundos",
           "type": "secundaria"
         },
         {
-          "url": "/images/sacacorchos-accesorios-medidas.jpeg",
+          "url": "/images/sacacorchos-accesorios-medidas.webp",
           "alt": "Accesorios opcionales con medidas: vertedor, tapón, cortacápsulas redondo y ovalado",
           "type": "secundaria"
         }
@@ -431,62 +431,62 @@
       ],
       "images": [
         {
-          "url": "/images/te-principal.png",
+          "url": "/images/te-principal.webp",
           "alt": "Juego de té de cerámica en sus dos colores disponibles: blanco y negro",
           "type": "principal"
         },
         {
-          "url": "/images/te-blanco.jpeg",
+          "url": "/images/te-blanco.webp",
           "alt": "Variante en color blanco con bandeja de madera y cuatro tazas",
           "type": "secundaria"
         },
         {
-          "url": "/images/te-negro-bandeja.jpeg",
+          "url": "/images/te-negro-bandeja.webp",
           "alt": "Variante en color negro con bandeja de madera y cuatro tazas",
           "type": "secundaria"
         },
         {
-          "url": "/images/te-negro-ambiente.jpeg",
+          "url": "/images/te-negro-ambiente.webp",
           "alt": "Juego de té en color negro servido sobre bandeja en ambiente",
           "type": "secundaria"
         },
         {
-          "url": "/images/te-negro-cenital.jpeg",
+          "url": "/images/te-negro-cenital.webp",
           "alt": "Vista cenital del juego negro con tetera y tazas sobre bandeja de bambú",
           "type": "secundaria"
         },
         {
-          "url": "/images/te-negro-frontal.jpeg",
+          "url": "/images/te-negro-frontal.webp",
           "alt": "Conjunto completo en negro con acabado marmoleado dorado sobre bandeja",
           "type": "secundaria"
         },
         {
-          "url": "/images/te-negro-sirviendo.jpeg",
+          "url": "/images/te-negro-sirviendo.webp",
           "alt": "Sirviendo té desde la tetera negra, detalle del asa de bambú",
           "type": "lifestyle"
         },
         {
-          "url": "/images/te-negro-detalles.jpeg",
+          "url": "/images/te-negro-detalles.webp",
           "alt": "Detalles del juego negro: asa de bambú, filtro integrado y estilo japonés",
           "type": "secundaria"
         },
         {
-          "url": "/images/te-blanco-frontal.jpeg",
+          "url": "/images/te-blanco-frontal.webp",
           "alt": "Conjunto completo en blanco con acabado marmoleado dorado sobre bandeja",
           "type": "secundaria"
         },
         {
-          "url": "/images/te-blanco-medidas.jpeg",
+          "url": "/images/te-blanco-medidas.webp",
           "alt": "Medidas de las piezas: taza, tetera y bandeja del juego blanco",
           "type": "secundaria"
         },
         {
-          "url": "/images/te-blanco-terraza.jpeg",
+          "url": "/images/te-blanco-terraza.webp",
           "alt": "Juego de té blanco servido en terraza exterior",
           "type": "lifestyle"
         },
         {
-          "url": "/images/te-packaging-colores.jpeg",
+          "url": "/images/te-packaging-colores.webp",
           "alt": "Packaging del juego de té con ambos colores y presentación en caja",
           "type": "secundaria"
         }

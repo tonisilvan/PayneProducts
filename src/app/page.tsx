@@ -16,7 +16,7 @@ const jsonLd = {
       '@id': `${baseUrl}/#organization`,
       name: 'Suministros Payne',
       url: baseUrl,
-      logo: `${baseUrl}/images/powerbank-principal-cable.png`,
+      logo: `${baseUrl}/images/powerbank-principal-cable.webp`,
     },
     {
       '@type': 'WebSite',

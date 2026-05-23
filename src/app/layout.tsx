@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     siteName: "PAYNE Products",
     title: "PAYNE Products - Tecnología y estilo para tu día a día",
     description: "Tienda online de electrónica y hogar. Envío gratuito a Península y Portugal.",
-    images: [{ url: "/images/powerbank-principal-cable.png", width: 1000, height: 1000, alt: "PAYNE Products" }],
+    images: [{ url: "/images/powerbank-principal-cable.webp", width: 1000, height: 1000, alt: "PAYNE Products" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "PAYNE Products - Tecnología y estilo para tu día a día",
     description: "Tienda online de electrónica y hogar. Envío gratuito.",
-    images: ["/images/powerbank-principal-cable.png"],
+    images: ["/images/powerbank-principal-cable.webp"],
   },
   robots: {
     index: true,
