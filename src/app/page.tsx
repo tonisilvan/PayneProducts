@@ -82,13 +82,13 @@ export default function Home() {
         
         <div className="relative px-4 py-16 md:py-24 lg:py-32 max-w-7xl mx-auto text-center">
           <div className="space-y-6 max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight">
+            <h2 className="hero-title text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight">
               Tecnología y estilo
-              <span className="block gradient-text">
+              <span className="hero-subtitle block gradient-text">
                 para tu día a día
               </span>
             </h2>
-            <p className="text-lg md:text-xl text-zinc-300 max-w-2xl mx-auto leading-relaxed">
+            <p className="hero-description text-lg md:text-xl text-zinc-300 max-w-2xl mx-auto leading-relaxed">
               Descubre nuestra selección de productos cuidadosamente elegidos: electrónica, hogar y accesorios con la mejor relación calidad-precio.
             </p>
             <div className="flex flex-wrap justify-center gap-6 pt-4">
