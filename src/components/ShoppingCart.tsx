@@ -6,6 +6,7 @@ import { calculateCartTotal } from '@/lib/cart';
 import { Button } from '@/components/ui/button';
 import { X, Plus, Minus, Trash2, ShoppingBag } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ShoppingCartProps {
   items: CartItem[];
@@ -152,9 +153,11 @@ export function ShoppingCart({
             </div>
             
             <div className="space-y-2">
-              <Button className="w-full h-12 text-base font-semibold">
-                Finalizar Compra
-              </Button>
+              <Link href="/checkout" onClick={onClose}>
+                <Button className="w-full h-12 text-base font-semibold">
+                  Finalizar Compra
+                </Button>
+              </Link>
               <Button variant="ghost" size="sm" className="w-full text-muted-foreground" onClick={onClearCart}>
                 Vaciar carrito
               </Button>
