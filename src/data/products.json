@@ -14,9 +14,9 @@
           "color": null,
           "reference": "99-990015",
           "stock": 97,
-          "price": 23.00,
+          "price": 27.83,
           "currency": "EUR",
-          "priceNote": "+ IVA"
+          "priceNote": "IVA incluido"
         }
       ],
       "features": [
@@ -73,9 +73,9 @@
           "color": null,
           "reference": "99-990006",
           "stock": 73,
-          "price": 44.21,
+          "price": 53.49,
           "currency": "EUR",
-          "priceNote": "+ IVA"
+          "priceNote": "IVA incluido"
         }
       ],
       "features": [
@@ -121,9 +121,9 @@
           "color": null,
           "reference": "99.990006",
           "stock": 47,
-          "price": 23.30,
+          "price": 28.19,
           "currency": "EUR",
-          "priceNote": "+ IVA"
+          "priceNote": "IVA incluido"
         }
       ],
       "features": [
@@ -182,9 +182,9 @@
           "color": null,
           "reference": "99-990004",
           "stock": 79,
-          "price": 34.74,
+          "price": 42.04,
           "currency": "EUR",
-          "priceNote": "+ IVA"
+          "priceNote": "IVA incluido"
         }
       ],
       "features": [
@@ -242,17 +242,17 @@
           "color": "Negro",
           "reference": "99-990003",
           "stock": 14,
-          "price": 21.90,
+          "price": 26.50,
           "currency": "EUR",
-          "priceNote": "+ IVA"
+          "priceNote": "IVA incluido"
         },
         {
           "color": "Rojo",
           "reference": "99-990002",
           "stock": 7,
-          "price": 21.90,
+          "price": 26.50,
           "currency": "EUR",
-          "priceNote": "+ IVA"
+          "priceNote": "IVA incluido"
         }
       ],
       "features": [
@@ -316,17 +316,17 @@
           "color": "Negro",
           "reference": "99-990016",
           "stock": 40,
-          "price": 53.30,
+          "price": 64.49,
           "currency": "EUR",
-          "priceNote": "+ IVA"
+          "priceNote": "IVA incluido"
         },
         {
           "color": "Blanco",
           "reference": "99-990016bl",
           "stock": 48,
-          "price": 53.30,
+          "price": 64.49,
           "currency": "EUR",
-          "priceNote": "+ IVA"
+          "priceNote": "IVA incluido"
         }
       ],
       "features": [

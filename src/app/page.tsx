@@ -166,7 +166,7 @@ export default function Home() {
             © 2026 Payne Products · Suministros Payne · Todos los derechos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
-            Precios indicados + IVA · Envío gratuito Península y Portugal
+            Precios con IVA incluido · Envío gratuito Península y Portugal
           </p>
         </div>
       </footer>

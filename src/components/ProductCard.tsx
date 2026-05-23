@@ -75,7 +75,7 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
               {lowestPrice.toFixed(2)} €
             </p>
             <p className="text-xs text-muted-foreground">
-              + IVA · Ref: {product.variants[0].reference}
+              IVA incl. · Ref: {product.variants[0].reference}
             </p>
           </div>
           <Button

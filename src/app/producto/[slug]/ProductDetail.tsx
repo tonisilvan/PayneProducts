@@ -149,7 +149,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
                 <span className="text-4xl font-bold text-primary">
                   {variant.price.toFixed(2)} €
                 </span>
-                <span className="text-sm text-muted-foreground">+ IVA</span>
+                <span className="text-sm text-muted-foreground">IVA incluido</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Ref: {variant.reference} · Stock: {variant.stock} unidades

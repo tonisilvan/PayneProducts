@@ -120,7 +120,7 @@ export function ProductCarousel({ products, onAddToCart }: ProductCarouselProps)
                           <p className="text-3xl font-bold text-white drop-shadow-lg">
                             {lowestPrice.toFixed(2)} €
                           </p>
-                          <p className="text-sm text-white/80">+ IVA</p>
+                          <p className="text-sm text-white/80">IVA incluido</p>
                         </div>
                       </div>
                     </Link>

@@ -1,10 +1,10 @@
 import { Product, CartItem, Cart } from '@/types/product';
 
 export const calculateCartTotal = (items: CartItem[]): Cart => {
-  const subtotal = items.reduce((total, item) => total + (item.product.variants[0].price * item.quantity), 0);
-  const tax = subtotal * 0.21; // 21% IVA
+  const total = items.reduce((sum, item) => sum + (item.product.variants[0].price * item.quantity), 0);
+  const subtotal = total / 1.21; // Precio sin IVA (base imponible)
+  const tax = total - subtotal; // IVA incluido en el precio
   const shipping = 0; // Envío gratuito para Península española y Portugal peninsular
-  const total = subtotal + tax + shipping;
 
   return {
     items,
