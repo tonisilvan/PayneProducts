@@ -163,10 +163,15 @@ export default function Home() {
             <span className="text-primary">PAYNE</span> Products
           </p>
           <p className="text-sm text-muted-foreground">
-            © 2026 Payne Products · Suministros Payne · Todos los derechos reservados.
+            © 2026 Suministros Payne, SLU · CIF: B42782300 · Todos los derechos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
             Precios con IVA incluido · Envío gratuito Península y Portugal
+          </p>
+          <p className="text-xs text-muted-foreground space-x-2">
+            <a href="/aviso-legal" className="underline hover:text-primary transition-colors">Aviso Legal</a>
+            <span>·</span>
+            <a href="mailto:info@suministrospayne.com" className="underline hover:text-primary transition-colors">Contacto</a>
           </p>
         </div>
       </footer>
