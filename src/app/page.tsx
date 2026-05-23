@@ -84,7 +84,7 @@ export default function Home() {
           <div className="space-y-6 max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight">
               Tecnología y estilo
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+              <span className="block gradient-text">
                 para tu día a día
               </span>
             </h2>
@@ -92,16 +92,16 @@ export default function Home() {
               Descubre nuestra selección de productos cuidadosamente elegidos: electrónica, hogar y accesorios con la mejor relación calidad-precio.
             </p>
             <div className="flex flex-wrap justify-center gap-6 pt-4">
-              <div className="flex items-center gap-2 text-zinc-300">
-                <Truck className="h-5 w-5 text-green-400" />
+              <div className="hero-feature flex items-center gap-2 text-zinc-300">
+                <Truck className="hero-icon h-5 w-5 text-green-400" />
                 <span className="text-sm">Envío gratuito</span>
               </div>
-              <div className="flex items-center gap-2 text-zinc-300">
-                <Shield className="h-5 w-5 text-blue-400" />
+              <div className="hero-feature flex items-center gap-2 text-zinc-300">
+                <Shield className="hero-icon h-5 w-5 text-blue-400" />
                 <span className="text-sm">Garantía incluida</span>
               </div>
-              <div className="flex items-center gap-2 text-zinc-300">
-                <Zap className="h-5 w-5 text-yellow-400" />
+              <div className="hero-feature flex items-center gap-2 text-zinc-300">
+                <Zap className="hero-icon h-5 w-5 text-yellow-400" />
                 <span className="text-sm">Entrega rápida</span>
               </div>
             </div>
