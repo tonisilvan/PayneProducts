@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, Lock, Truck, ShieldCheck } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { AddressAutocomplete } from '@/components/AddressAutocomplete';
 
 interface ShippingData {
   nombre: string;
@@ -162,16 +163,20 @@ export default function CheckoutPage() {
               </h2>
 
               <div className="space-y-1.5">
-                <label htmlFor="direccion" className="text-sm font-medium">Dirección completa *</label>
-                <input
-                  type="text"
-                  id="direccion"
-                  name="direccion"
-                  required
-                  placeholder="Calle, número, piso, puerta..."
-                  value={formData.direccion}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary/50"
+                <label className="text-sm font-medium">Dirección completa *</label>
+                <AddressAutocomplete
+                  placeholder="Busca tu dirección..."
+                  initialValue={formData.direccion}
+                  onAddressSelect={(data) => {
+                    setFormData(prev => ({
+                      ...prev,
+                      direccion: data.address,
+                      codigoPostal: data.postalCode || prev.codigoPostal,
+                      ciudad: data.city || prev.ciudad,
+                      provincia: data.province || prev.provincia,
+                      pais: data.country || prev.pais,
+                    }));
+                  }}
                 />
               </div>
 
