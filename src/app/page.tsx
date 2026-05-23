@@ -128,7 +128,7 @@ export default function Home() {
             <span className="text-primary">PAYNE</span> Products
           </p>
           <p className="text-sm text-muted-foreground">
-            © 2024 Payne Products · Suministros Payne · Todos los derechos reservados.
+            © 2025 Payne Products · Suministros Payne · Todos los derechos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
             Precios indicados + IVA · Envío gratuito Península y Portugal
