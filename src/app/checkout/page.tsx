@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useCart } from '@/context/CartContext';
 import { calculateCartTotal } from '@/lib/cart';
 import { Button } from '@/components/ui/button';
@@ -8,6 +8,7 @@ import { ArrowLeft, Lock, Truck, ShieldCheck } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AddressAutocomplete } from '@/components/AddressAutocomplete';
+import { analyticsEvents, isGAReady } from '@/lib/analytics';
 
 interface ShippingData {
   nombre: string;
@@ -25,6 +26,13 @@ interface ShippingData {
 export default function CheckoutPage() {
   const { items, emptyCart } = useCart();
   const cart = calculateCartTotal(items);
+
+  // Analytics event when entering checkout
+  useEffect(() => {
+    if (items.length > 0 && isGAReady()) {
+      analyticsEvents.beginCheckout(cart.total, items.length);
+    }
+  }, [items.length, cart.total]);
 
   const [formData, setFormData] = useState<ShippingData>({
     nombre: '',
@@ -47,6 +55,13 @@ export default function CheckoutPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Analytics event for purchase
+    if (isGAReady() && items.length > 0) {
+      const orderId = `ORDER_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+      analyticsEvents.purchase(orderId, cart.total, items.length);
+    }
+    
     emptyCart();
     setSubmitted(true);
   };

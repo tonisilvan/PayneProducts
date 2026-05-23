@@ -9,6 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import { ShoppingCart, ArrowLeft, ChevronLeft, ChevronRight, Check, Truck, Shield } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { analyticsEvents, isGAReady } from '@/lib/analytics';
 
 interface ProductDetailProps {
   product: Product;
@@ -33,6 +34,17 @@ export function ProductDetail({ product }: ProductDetailProps) {
     emblaApi.on('select', onSelect);
     return () => { emblaApi.off('select', onSelect); };
   }, [emblaApi]);
+
+  // Analytics event for viewing product
+  useEffect(() => {
+    if (isGAReady()) {
+      analyticsEvents.viewItem(
+        product.name,
+        product.id,
+        product.variants[0].price
+      );
+    }
+  }, [product]);
 
   const variant = product.variants[selectedVariant];
 

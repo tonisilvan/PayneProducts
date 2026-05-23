@@ -9,6 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import { ShoppingCart, ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { analyticsEvents, isGAReady } from '@/lib/analytics';
 
 interface ProductCarouselProps {
   products: Product[];
@@ -160,6 +161,15 @@ export function ProductCarousel({ products, onAddToCart }: ProductCarouselProps)
                           onClick={(e) => {
                             e.preventDefault();
                             onAddToCart(product);
+                            // Analytics event
+                            if (isGAReady()) {
+                              analyticsEvents.addToCart(
+                                product.name,
+                                product.id,
+                                lowestPrice,
+                                1
+                              );
+                            }
                           }}
                           disabled={totalStock === 0}
                           className="flex-1 gap-2"
@@ -245,7 +255,18 @@ export function ProductCarousel({ products, onAddToCart }: ProductCarouselProps)
 
                     <div className="flex gap-2 pt-2">
                       <Button
-                        onClick={() => onAddToCart(product)}
+                        onClick={() => {
+                          onAddToCart(product);
+                          // Analytics event
+                          if (isGAReady()) {
+                            analyticsEvents.addToCart(
+                              product.name,
+                              product.id,
+                              lowestPrice,
+                              1
+                            );
+                          }
+                        }}
                         disabled={totalStock === 0}
                         className="flex-1 gap-2"
                         size="lg"

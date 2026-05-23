@@ -4,6 +4,7 @@ import "./globals.css";
 import "../styles/animations.css";
 import { CartProvider } from "@/context/CartContext";
 import { GlobalCart } from "@/components/GlobalCart";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -69,6 +70,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <GoogleAnalytics />
         <CartProvider>
           {children}
           <GlobalCart />
