@@ -5,6 +5,7 @@ import "../styles/animations.css";
 import { CartProvider } from "@/context/CartContext";
 import { GlobalCart } from "@/components/GlobalCart";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { MicrosoftClarity } from "@/components/MicrosoftClarity";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -71,6 +72,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <GoogleAnalytics />
+        <MicrosoftClarity />
         <CartProvider>
           {children}
           <GlobalCart />
