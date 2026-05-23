@@ -1,0 +1,388 @@
+{
+  "products": [
+    {
+      "id": "powerbank-payne-10000",
+      "name": "Power Bank PAYNE 10.000 mAh con carga múltiple, carga inalámbrica y sistema de ventosas",
+      "slug": "power-bank-payne-10000-mah",
+      "shortDescription": "Batería externa portátil PAYNE de 10.000 mAh, ligera, compacta y cómoda de transportar. Permite cargar varios dispositivos, incluye carga inalámbrica para móviles compatibles y cuenta con sistema de ventosas para sujetar el teléfono durante la carga.",
+      "longDescription": "El Power Bank PAYNE 10.000 mAh es una batería externa práctica y potente, diseñada para cargar el móvil, tablet u otros dispositivos electrónicos estés donde estés. Su capacidad ofrece energía suficiente para realizar varias cargas, dependiendo del modelo del dispositivo y del uso. Además, permite cargar mediante cable y también de forma inalámbrica en móviles compatibles con esta función. El sistema de ventosas permite fijar el móvil al Power Bank durante la carga, creando una experiencia cómoda y compacta, como si ambos formaran un solo dispositivo.",
+      "highlightPhrase": "Carga tu móvil estés donde estés, con cable o de forma inalámbrica.",
+      "ctaButton": "Solicitar información / Comprar ahora",
+      "category": "Electrónica",
+      "variants": [
+        {
+          "color": null,
+          "reference": "99-990015",
+          "stock": 97,
+          "price": 23.00,
+          "currency": "EUR",
+          "priceNote": "+ IVA"
+        }
+      ],
+      "features": [
+        "Capacidad: 10.000 mAh.",
+        "Compatible con carga inalámbrica en móviles que dispongan de esta función.",
+        "Carga mediante cable para diferentes dispositivos compatibles.",
+        "Posibilidad de cargar varios dispositivos al mismo tiempo, según conexiones disponibles.",
+        "Sistema de ventosas para sujetar el móvil mientras se carga.",
+        "Diseño compacto, ligero y fácil de transportar.",
+        "Ideal para viajes, trabajo, uso diario y emergencias."
+      ],
+      "recommendedUses": [
+        "Móviles compatibles con carga inalámbrica.",
+        "Teléfonos, tablets y pequeños dispositivos electrónicos.",
+        "Viajes, desplazamientos, trabajo fuera de oficina y emergencias."
+      ],
+      "images": [
+        {
+          "url": "/images/powerbank-principal-cable.png",
+          "alt": "Power Bank PAYNE con cable múltiple y logo iluminado",
+          "type": "principal"
+        },
+        {
+          "url": "/images/powerbank-trasera-ventosas.png",
+          "alt": "Parte trasera del Power Bank con ventosas y símbolo de carga inalámbrica",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/powerbank-vista-frontal.png",
+          "alt": "Vista frontal del Power Bank con logo PAYNE",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/powerbank-uso-movil.png",
+          "alt": "Ejemplo de uso del Power Bank colocado sobre un móvil",
+          "type": "secundaria"
+        }
+      ],
+      "featured": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "aspirador-soplador-2en1",
+      "name": "Aspirador y Soplador de Aire 2 en 1 Recargable para Limpieza de Ordenadores",
+      "slug": "aspirador-soplador-2-en-1-recargable",
+      "shortDescription": "Aspirador y soplador de aire portátil 2 en 1, potente y recargable, ideal para limpiar ordenadores, teclados, equipos electrónicos, vehículos y zonas de difícil acceso. Cuenta con 3 velocidades de aire y carga rápida en aproximadamente 2 horas.",
+      "longDescription": "El Aspirador y Soplador de Aire 2 en 1 es una herramienta práctica, potente y versátil para eliminar polvo y pequeñas partículas en ordenadores, teclados, componentes electrónicos, vehículos y zonas de difícil acceso. Combina soplador de aire y aspirador portátil en un solo equipo. Dispone de 3 velocidades: 60.000, 80.000 y 100.000 rpm. Su batería recargable ofrece hasta 50 minutos de autonomía, según el modo utilizado, y carga rápida en aproximadamente 2 horas.",
+      "highlightPhrase": "Potencia portátil para una limpieza rápida y precisa.",
+      "ctaButton": "Solicitar información / Comprar ahora",
+      "category": "Electrónica",
+      "variants": [
+        {
+          "color": null,
+          "reference": "99-990006",
+          "stock": 73,
+          "price": 44.21,
+          "currency": "EUR",
+          "priceNote": "+ IVA"
+        }
+      ],
+      "features": [
+        "Función 2 en 1: soplador de aire y aspirador portátil.",
+        "3 velocidades de aire: 60.000, 80.000 y 100.000 rpm.",
+        "Autonomía de hasta 50 minutos, según el modo utilizado.",
+        "Carga rápida en aproximadamente 2 horas.",
+        "Incluye varios accesorios y boquillas intercambiables.",
+        "Diseño compacto, ligero y fácil de transportar.",
+        "Alternativa reutilizable frente a las latas de aire comprimido desechables."
+      ],
+      "recommendedUses": [
+        "Ordenadores, portátiles, teclados, periféricos y componentes electrónicos.",
+        "Escritorios, rejillas, ranuras, interior de vehículos y zonas estrechas."
+      ],
+      "images": [
+        {
+          "url": "/images/aspirador-principal.jpeg",
+          "alt": "Aspirador y soplador 2 en 1 completo con cable de carga y accesorios incluidos",
+          "type": "principal"
+        },
+        {
+          "url": "/images/aspirador-accesorios.jpeg",
+          "alt": "Accesorios y boquillas del aspirador soplador",
+          "type": "secundaria"
+        }
+      ],
+      "featured": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "auriculares-bluetooth-53",
+      "name": "Auriculares Inalámbricos Bluetooth 5.3 con Micrófono HD, Sonido HiFi y Estuche con Pantalla LED",
+      "slug": "auriculares-inalambricos-bluetooth-5-3",
+      "shortDescription": "Auriculares inalámbricos Bluetooth 5.3 con micrófono HD, sonido HiFi estéreo, control táctil y estuche de carga con pantalla LED. Diseñados para música, llamadas, deporte y uso diario.",
+      "longDescription": "Los Auriculares Inalámbricos Bluetooth 5.3 ofrecen una experiencia de sonido cómoda, clara y moderna para escuchar música, realizar llamadas, ver vídeos o utilizar asistentes de voz. Incorporan sonido HiFi estéreo y controlador dinámico de 13 mm para una reproducción potente y equilibrada. Su micrófono HD con reducción de ruido ayuda a mejorar la claridad de las llamadas, incluso en entornos con ruido ambiental. El estuche de carga incluye pantalla LED para consultar el nivel de batería de forma rápida y ofrece hasta 36 horas de autonomía total con el estuche, según el uso.",
+      "highlightPhrase": "Sonido claro, llamadas nítidas y batería para todo el día.",
+      "ctaButton": "Solicitar información / Comprar ahora",
+      "category": "Electrónica",
+      "variants": [
+        {
+          "color": null,
+          "reference": "99.990006",
+          "stock": 47,
+          "price": 23.30,
+          "currency": "EUR",
+          "priceNote": "+ IVA"
+        }
+      ],
+      "features": [
+        "Bluetooth 5.3 para una conexión rápida y estable.",
+        "Sonido HiFi estéreo con controlador dinámico de 13 mm.",
+        "Micrófono HD con reducción de ruido para llamadas más claras.",
+        "Estuche de carga con pantalla LED de batería.",
+        "Hasta 36 horas de autonomía total con el estuche, según el uso.",
+        "Control táctil para música, llamadas y funciones principales.",
+        "Resistencia al agua IPX-5, adecuada para deporte y uso exterior.",
+        "Compatibles con Siri, Google Assistant y Xiaomi AI.",
+        "Diseño ergonómico, ligero y cómodo para uso diario."
+      ],
+      "recommendedUses": [
+        "Música, llamadas, podcasts y vídeos.",
+        "Entrenamientos, caminatas, desplazamientos y uso diario.",
+        "Trabajo, manos libres y comunicación desde el móvil."
+      ],
+      "images": [
+        {
+          "url": "/images/auriculares-principal.png",
+          "alt": "Auriculares inalámbricos con estuche abierto y pantalla LED de batería",
+          "type": "principal"
+        },
+        {
+          "url": "/images/auriculares-estuche-led.png",
+          "alt": "Auriculares con estuche y pantalla LED",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/auriculares-pantalla-digital.png",
+          "alt": "Detalle de pantalla digital del estuche y estado de carga",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/auriculares-bluetooth-movil.png",
+          "alt": "Conexión Bluetooth y emparejamiento automático con el móvil",
+          "type": "secundaria"
+        }
+      ],
+      "featured": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "estacion-carga-inalambrica-4en1",
+      "name": "Estación de Carga Inalámbrica 4 en 1",
+      "slug": "estacion-carga-inalambrica-4-en-1",
+      "shortDescription": "Estación de carga inalámbrica 4 en 1 compatible con móviles, auriculares y relojes inteligentes. Incluye soporte ajustable, chip inteligente con protecciones de seguridad y luz ambiental.",
+      "longDescription": "La Estación de Carga Inalámbrica 4 en 1 está diseñada para cargar cómodamente varios dispositivos en un único punto de carga organizado y elegante. Compatible con móviles iOS y Android que dispongan de carga inalámbrica, permite cargar al mismo tiempo el teléfono móvil, unos auriculares inalámbricos y un reloj o pulsera inteligente compatible. Incluye soporte ajustable para el teléfono, base antideslizante y chip inteligente con funciones de protección contra sobrecalentamiento, sobrecorriente, sobretensión, sobrecarga, descarga y detección de objetos extraños.",
+      "highlightPhrase": "Un solo punto de carga para todos tus dispositivos.",
+      "ctaButton": "Solicitar información / Comprar ahora",
+      "category": "Electrónica",
+      "variants": [
+        {
+          "color": null,
+          "reference": "99-990004",
+          "stock": 79,
+          "price": 34.74,
+          "currency": "EUR",
+          "priceNote": "+ IVA"
+        }
+      ],
+      "features": [
+        "Estación de carga inalámbrica 4 en 1.",
+        "Compatible con móviles iOS y Android que admitan carga inalámbrica.",
+        "Permite cargar móvil, auriculares y reloj o pulsera inteligente compatible.",
+        "Soporte ajustable para diferentes tamaños y posiciones de teléfono.",
+        "Chip inteligente con funciones de protección durante la carga.",
+        "Protección contra sobrecalentamiento, sobrecorriente, sobretensión, sobrecarga y objetos extraños.",
+        "Base antideslizante para mayor estabilidad.",
+        "Luz ambiental con control manual de encendido y apagado."
+      ],
+      "recommendedUses": [
+        "Mesita de noche, escritorio, oficina o zona de trabajo.",
+        "Carga diaria de móvil, auriculares y reloj inteligente compatible.",
+        "Viajes, hoteles y espacios donde se quiera reducir el número de cables."
+      ],
+      "images": [
+        {
+          "url": "/images/cargador-principal.png",
+          "alt": "Estación de carga inalámbrica con móvil, reloj y auriculares colocados en la base",
+          "type": "principal"
+        },
+        {
+          "url": "/images/cargador-protecciones.png",
+          "alt": "Vista de protecciones y sistema de carga segura",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/cargador-detalles-1.png",
+          "alt": "Detalles de diseño, soporte y disco de carga",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/cargador-detalles-2.png",
+          "alt": "Detalles de almohadilla protectora",
+          "type": "secundaria"
+        }
+      ],
+      "featured": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sacacorchos-electrico-recargable",
+      "name": "Sacacorchos Eléctrico Recargable para Vino con Base y Cortacápsulas",
+      "slug": "sacacorchos-electrico-recargable-vino",
+      "shortDescription": "Sacacorchos eléctrico recargable para vino, cómodo, elegante y fácil de usar. Incluye base de apoyo, cable de carga y cortacápsulas para quitar el precinto de la botella antes de abrirla.",
+      "longDescription": "El Sacacorchos Eléctrico Recargable para Vino está diseñado para abrir botellas de forma rápida, limpia y sin esfuerzo. Su funcionamiento automático permite extraer el corcho con solo pulsar un botón, evitando tirones, roturas o molestias al servir. Cuenta con cuerpo ergonómico, acabado elegante y zona transparente para ver el proceso de extracción. Incorpora sistema de expulsión del corcho, por lo que resulta práctico tanto para uso doméstico como para camareros, restaurantes, celebraciones o reuniones familiares. Al ser recargable, no necesita pilas desechables. Se suministra con cable de carga, base de apoyo y cortacápsulas para quitar fácilmente el precinto de la botella.",
+      "highlightPhrase": "Abre botellas de vino en segundos, de forma cómoda y sin esfuerzo.",
+      "ctaButton": "Solicitar información / Comprar ahora",
+      "category": "Hogar",
+      "variants": [
+        {
+          "color": "Negro",
+          "reference": "99-990003",
+          "stock": 14,
+          "price": 21.90,
+          "currency": "EUR",
+          "priceNote": "+ IVA"
+        },
+        {
+          "color": "Rojo",
+          "reference": "99-990002",
+          "stock": 7,
+          "price": 21.90,
+          "currency": "EUR",
+          "priceNote": "+ IVA"
+        }
+      ],
+      "features": [
+        "Sacacorchos eléctrico recargable para botellas de vino.",
+        "Incluye cable para recargar el dispositivo.",
+        "Viene con base de apoyo para guardarlo y presentarlo mejor.",
+        "Apertura automática con solo pulsar un botón.",
+        "Sistema de extracción y expulsión del corcho.",
+        "Incluye cortacápsulas para quitar el precinto de la botella.",
+        "Diseño ergonómico, cómodo y fácil de manejar.",
+        "Zona transparente para visualizar el proceso de apertura.",
+        "Adecuado para uso en casa, hostelería, eventos y regalos."
+      ],
+      "recommendedUses": [
+        "Apertura de botellas de vino en casa, cenas y celebraciones.",
+        "Restaurantes, bares, hoteles, catering y eventos.",
+        "Regalo práctico para amantes del vino."
+      ],
+      "images": [
+        {
+          "url": "/images/sacacorchos-principal.png",
+          "alt": "Sacacorchos eléctrico en color negro, presentado en ambiente de vino",
+          "type": "principal"
+        },
+        {
+          "url": "/images/sacacorchos-negro.png",
+          "alt": "Sacacorchos en color negro",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/sacacorchos-base.png",
+          "alt": "Modelo con base de apoyo y cortacápsulas",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/sacacorchos-mecanismo.png",
+          "alt": "Detalle del mecanismo interior y zona transparente",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/sacacorchos-instrucciones.png",
+          "alt": "Instrucciones visuales de uso para abrir la botella",
+          "type": "secundaria"
+        }
+      ],
+      "featured": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "juego-te-ceramica-bandeja",
+      "name": "Juego de Té de Cerámica de 6 Piezas con Bandeja de Madera",
+      "slug": "juego-te-ceramica-6-piezas-bandeja-madera",
+      "shortDescription": "Juego de té de cerámica compuesto por una tetera, cuatro tazas y una bandeja de madera. Disponible en dos acabados, blanco o negro, con diseño decorativo elegante y asa tipo bambú para un agarre cómodo y seguro.",
+      "longDescription": "Este juego de té de cerámica está pensado para quienes quieren presentar y servir té, infusiones o bebidas calientes de una forma cuidada, elegante y funcional. El conjunto reúne las piezas necesarias para compartir el servicio en casa, en reuniones con invitados o como detalle decorativo para la mesa o la cocina. La tetera destaca por su diseño limpio y moderno, con líneas suaves, acabado decorativo y asa superior estilo bambú que aporta un toque cálido y natural. Las cuatro tazas mantienen la misma estética del conjunto y encajan perfectamente con la bandeja de madera. Está disponible en dos colores: blanco y negro. Ambos modelos comparten el mismo formato y el mismo estilo decorativo, por lo que en la web conviene mostrar claramente las dos variantes como opciones de color del mismo producto.",
+      "highlightPhrase": "Un conjunto elegante y práctico para servir té o infusiones con estilo.",
+      "ctaButton": "Solicitar información / Comprar ahora",
+      "category": "Hogar",
+      "variants": [
+        {
+          "color": "Negro",
+          "reference": "99-990016",
+          "stock": 40,
+          "price": 53.30,
+          "currency": "EUR",
+          "priceNote": "+ IVA"
+        },
+        {
+          "color": "Blanco",
+          "reference": "99-990016bl",
+          "stock": 48,
+          "price": 53.30,
+          "currency": "EUR",
+          "priceNote": "+ IVA"
+        }
+      ],
+      "features": [
+        "Juego de té de 6 piezas.",
+        "Material principal: cerámica.",
+        "Disponible en dos colores: blanco y negro.",
+        "Incluye 1 tetera, 4 tazas y 1 bandeja de madera.",
+        "Diseño decorativo elegante con acabado marmoleado.",
+        "Tetera con asa superior estilo bambú para un agarre cómodo.",
+        "Capacidad aproximada de la tetera: 40 oz.",
+        "Capacidad aproximada de cada taza: 6,7 oz.",
+        "Medidas aproximadas de la bandeja: 35 x 19 cm.",
+        "Peso aproximado del conjunto: 4 kg.",
+        "Se recomienda lavar a mano la tetera y la bandeja para un mejor cuidado.",
+        "No apto para microondas ni para usar directamente sobre fuego o cocina."
+      ],
+      "recommendedUses": [
+        "Servir té e infusiones en casa.",
+        "Reuniones familiares, visitas y momentos de sobremesa.",
+        "Regalo para bodas, celebraciones, inauguraciones o detalles especiales.",
+        "Elemento decorativo para cocina, salón o mesa auxiliar."
+      ],
+      "images": [
+        {
+          "url": "/images/te-principal.png",
+          "alt": "Juego de té de cerámica en sus dos colores disponibles: blanco y negro",
+          "type": "principal"
+        },
+        {
+          "url": "/images/te-blanco.jpeg",
+          "alt": "Variante en color blanco con bandeja de madera y cuatro tazas",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/te-negro-bandeja.jpeg",
+          "alt": "Variante en color negro con bandeja de madera y cuatro tazas",
+          "type": "secundaria"
+        },
+        {
+          "url": "/images/te-negro-ambiente.jpeg",
+          "alt": "Juego de té en color negro servido sobre bandeja en ambiente",
+          "type": "secundaria"
+        }
+      ],
+      "featured": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "shippingInfo": {
+    "freeShipping": true,
+    "freeShippingZones": ["Península española", "Portugal peninsular"],
+    "otherZonesNote": "Para otros destinos, consultar condiciones antes de confirmar el pedido."
+  },
+  "legalInfo": {
+    "baseLegalTerms": "Suministros Payne",
+    "note": "Se aplicarán las variantes necesarias en función del dominio, nombre comercial, productos publicados, condiciones de compra, métodos de pago, envíos, garantías, devoluciones, política de privacidad y política de cookies."
+  }
+}

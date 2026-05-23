@@ -1,24 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Payne Products - Shopping Cart Website
 
-## Getting Started
+Una web de carrito de compras moderna y responsive construida con Next.js, TypeScript y Tailwind CSS.
 
-First, run the development server:
+## 🚀 Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Catálogo de productos** con búsqueda y filtrado por categorías
+- **Carrito de compras** funcional con gestión de cantidades
+- **Diseño responsive** que funciona en todos los dispositivos
+- **Interfaz moderna** con Tailwind CSS y componentes reutilizables
+- **SEO optimizado** con Next.js App Router
+- **TypeScript** para mejor experiencia de desarrollo
+- **Firebase ready** para base de datos y autenticación
+
+## 🛠️ Tecnologías
+
+- **Next.js 16** - Framework React con App Router
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Framework de CSS utility-first
+- **Lucide React** - Iconos modernos
+- **Radix UI** - Componentes accesibles
+- **Firebase** - Base de datos y autenticación (configurable)
+
+## 📦 Estructura del Proyecto
+
+```
+src/
+├── app/                 # Páginas y layouts (App Router)
+├── components/          # Componentes reutilizables
+│   ├── ui/             # Componentes UI base
+│   ├── ProductCard.tsx # Tarjeta de producto
+│   └── ShoppingCart.tsx # Modal del carrito
+├── data/               # Datos de ejemplo
+├── lib/                # Utilidades y configuración
+├── types/              # Definiciones de TypeScript
+└── ...                 # Otros archivos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Instalar dependencias:**
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Configurar Firebase (opcional):**
+```bash
+# Copiar .env.local.example a .env.local
+# Añadir tus credenciales de Firebase
+```
+
+3. **Iniciar servidor de desarrollo:**
+```bash
+npm run dev
+```
+
+4. **Abrir en navegador:**
+```
+http://localhost:3000
+```
+
+## 📝 Productos de Ejemplo
+
+El proyecto incluye 6 productos de ejemplo que puedes fácilmente reemplazar con tus productos del PDF:
+
+1. Producto Premium 1 - €299.99
+2. Producto Estándar 2 - €149.99
+3. Producto Profesional 3 - €599.99
+4. Producto Compacto 4 - €89.99
+5. Producto Deluxe 5 - €899.99
+6. Producto Básico 6 - €49.99
+
+## 🔧 Personalización
+
+### Añadir tus productos:
+
+Edita `src/data/products.ts` para añadir tus productos:
+
+```typescript
+{
+  id: 'tu-producto-id',
+  name: 'Nombre del Producto',
+  description: 'Descripción detallada',
+  price: 99.99,
+  currency: 'EUR',
+  images: ['url-de-imagen-1', 'url-de-imagen-2'],
+  category: 'Categoría',
+  stock: 10,
+  featured: true,
+  sku: 'SKU-001',
+  // ... otros campos
+}
+```
+
+### Configurar Firebase:
+
+1. Crea un proyecto en Firebase Console
+2. Copia las credenciales en `.env.local`
+3. Las funciones de Firebase ya están configuradas en `src/lib/firebase.ts`
+
+## 🎨 Diseño y UX
+
+- **Interfaz limpia y moderna**
+- **Animaciones suaves** en hover y transiciones
+- **Notificaciones visuales** para stock bajo y productos destacados
+- **Responsive design** para móviles, tablets y desktop
+- **Accesibilidad** con componentes Radix UI
 
 ## Learn More
 
